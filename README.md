@@ -18,15 +18,25 @@ To get started with Microfrontend-demo, follow these steps:
 1. Clone the repo:
    `https://github.com/mandy8055/microfrontend-demo.git`
 2. Install the dependencies for all sub-applications:
+
    `npm install`
+
 3. Start the Container application:
+
    `npm run start:container`
+
 4. Start the Marketing application(`port: 8081`):
+
    `npm run start:marketing`
+
 5. Start the Auth application(`port: 8082`):
+
    `npm run start:auth`
+
 6. Start the Dashboard application(`port: 8083`):
+
    `npm run start:dashboard`
+
 7. Open your web browser and go to http://localhost:8080 to see the Container application with the other sub-applications loaded as remotes.
 
 ### Contributing
@@ -34,8 +44,7 @@ To get started with Microfrontend-demo, follow these steps:
 If you would like to contribute to Microfrontend-demo, please follow these guidelines:
 
 1. Fork the repository and create a new branch for your feature or bug fix.
-2. Write your code and tests, and make sure that all tests pass.
-3. Submit a pull request with your changes.
+2. Submit a pull request with your changes.
 
 ### License
 
