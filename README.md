@@ -1,6 +1,7 @@
 ## Microfrontend-demo
 
 ![container workflow](https://github.com/mandy8055/microfrontend-demo/actions/workflows/container.yml/badge.svg)
+&nbsp;![marketing workflow](https://github.com/mandy8055/microfrontend-demo/actions/workflows/marketing.yml/badge.svg)
 
 Microfrontend-demo is a monorepo containing four sub-applications that together create a micro-frontend architecture. The four sub-applications are:
 
