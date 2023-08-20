@@ -15,26 +15,21 @@ The Container application serves as the host, while the other sub-applications a
 
 To get started with Microfrontend-demo, follow these steps:
 
-1. Clone the repo:
+1. Clone the repo:<br />
    `https://github.com/mandy8055/microfrontend-demo.git`
-2. Install the dependencies for all sub-applications:
-
+2. Install the dependencies for all sub-applications:<br />
    `npm install`
 
-3. Start the Container application:
-
+3. Start the Container application:<br />
    `npm run start:container`
 
-4. Start the Marketing application(`port: 8081`):
-
+4. Start the Marketing application(`port: 8081`):<br />
    `npm run start:marketing`
 
-5. Start the Auth application(`port: 8082`):
-
+5. Start the Auth application(`port: 8082`):<br />
    `npm run start:auth`
 
-6. Start the Dashboard application(`port: 8083`):
-
+6. Start the Dashboard application(`port: 8083`):<br />
    `npm run start:dashboard`
 
 7. Open your web browser and go to http://localhost:8080 to see the Container application with the other sub-applications loaded as remotes.
