@@ -1,3 +1,4 @@
 import MarketingApp from './MarketingApp';
+import Header from './Header';
 
-export { MarketingApp };
+export { MarketingApp, Header };
