@@ -35,6 +35,29 @@ To get started with Microfrontend-demo, follow these steps:
 
 7. Open your web browser and go to http://localhost:8080 to see the Container application with the other sub-applications loaded as remotes.
 
+### Running prod build in local
+
+- Install [serve](https://www.npmjs.com/package/serve) globally.<br />`npm i -g serve`
+- Run the micro-frontend **locally** that you want to use (viz. auth, marketing or dashboard).
+- Change directory to container app.<br />`cd packages/container`
+- In your local `webpack.prod.js` file comment below lines
+
+```js
+publicPath: '/container/latest/',
+...
+marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
+```
+
+- Add below line to your local `webpack.prod.js`
+
+```js
+marketing: `marketing@http://localhost:8081/remoteEntry.js`, // marketing app is considered here
+```
+
+- Run the build command:<br />`npm run build`
+- Change directory to **dist** folder.
+- Run the command `serve`
+
 ### Contributing
 
 If you would like to contribute to Microfrontend-demo, please follow these guidelines:
