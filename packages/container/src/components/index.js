@@ -1,4 +1,4 @@
-import MarketingApp from './MarketingApp';
 import Header from './Header';
+import ProgressBar from './ProgressBar';
 
-export { MarketingApp, Header };
+export { Header, ProgressBar };

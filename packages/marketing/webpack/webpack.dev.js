@@ -10,6 +10,11 @@ const devConfig = {
     port: 8081,
     historyApiFallback: true,
   },
+  output: {
+    publicPath: 'http://localhost:8081/', // for fetching files from nested route
+    // publicPath: 'auto',
+  },
+
   plugins: [
     new ModuleFederationPlugin({
       name: 'marketing',

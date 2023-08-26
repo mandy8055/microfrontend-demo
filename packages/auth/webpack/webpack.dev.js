@@ -6,6 +6,9 @@ const packageJSON = require('../package.json');
 
 const devConfig = {
   mode: 'development',
+  output: {
+    publicPath: 'http://localhost:8082/', // for fetching files from nested route
+  },
   devServer: {
     port: 8082,
     historyApiFallback: true,
